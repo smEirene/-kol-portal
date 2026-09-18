@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KOL 資料管理入口 ｜ 高雄洲際酒店 食遇社群</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;700&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F2E7;
+    --ink:#28241D;
+    --ink-soft:#6E6656;
+    --brass:#9C7A3C;
+    --line:#E3D9C2;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Noto Sans TC', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:640px;
+    margin:0 auto;
+    padding:72px 24px 56px;
+  }
+  .masthead{
+    text-align:center;
+    margin-bottom:52px;
+  }
+  .masthead .mark{
+    font-size:13px;
+    letter-spacing:0.04em;
+    color:var(--brass);
+    margin:0 0 14px;
+    font-weight:500;
+  }
+  .masthead h1{
+    font-family:'Noto Serif TC', serif;
+    font-weight:700;
+    font-size:30px;
+    margin:0 0 12px;
+    line-height:1.4;
+  }
+  .masthead p{
+    font-size:14px;
+    color:var(--ink-soft);
+    margin:0;
+    line-height:1.8;
+  }
+  .list{
+    border-top:1px solid var(--line);
+  }
+  .entry{
+    display:block;
+    text-decoration:none;
+    color:var(--ink);
+    padding:26px 4px;
+    border-bottom:1px solid var(--line);
+    transition:padding-left .2s ease, color .2s ease;
+  }
+  .entry:hover{
+    padding-left:10px;
+    color:var(--brass);
+  }
+  .entry-top{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:16px;
+  }
+  .entry h2{
+    font-family:'Noto Serif TC', serif;
+    font-weight:600;
+    font-size:19px;
+    margin:0;
+  }
+  .entry .go{
+    font-size:12px;
+    color:var(--brass);
+    white-space:nowrap;
+    font-weight:500;
+  }
+  .entry p{
+    margin:8px 0 0;
+    font-size:13.5px;
+    color:var(--ink-soft);
+    line-height:1.7;
+  }
+  .footer{
+    margin-top:44px;
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:2;
+    text-align:center;
+  }
+  .footer b{
+    color:var(--ink);
+  }
+  @media (max-width:480px){
+    .wrap{padding:52px 20px 40px;}
+    .masthead h1{font-size:25px;}
+    .entry-top{flex-direction:column;gap:4px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <p class="mark">食遇 Social．高雄洲際酒店</p>
+    <h1>KOL 資料管理入口</h1>
+    <p>團隊共用資料庫導覽，點選項目即可開啟對應的 Notion 資料庫</p>
+  </div>
+
+  <div class="list">
+    <a class="entry" href="https://app.notion.com/p/a437a9bc339b4bb8aef6852f9aa1f29a" target="_blank" rel="noopener">
+      <div class="entry-top">
+        <h2>一般 KOL 清單</h2>
+        <span class="go">開啟資料庫</span>
+      </div>
+      <p>IG、FB、YouTube 等 KOL 的追蹤數、風格、報價與合作狀態，日常查詢與新增合作對象時使用。</p>
+    </a>
+
+    <a class="entry" href="https://app.notion.com/p/5539ee4b18994d809ad03eca1112fed6" target="_blank" rel="noopener">
+      <div class="entry-top">
+        <h2>美食家名單</h2>
+        <span class="go">開啟資料庫</span>
+      </div>
+      <p>各獎項評審、美食作家等的背景資料、評選標準與推薦菜品紀錄。</p>
+    </a>
+
+    <a class="entry" href="https://app.notion.com/p/c8c14b8277c94e09b9b410422daf66ea" target="_blank" rel="noopener">
+      <div class="entry-top">
+        <h2>活動提報彙整</h2>
+        <span class="go">開啟資料庫</span>
+      </div>
+      <p>依特定活動主題整理的提報名單，與一般清單分開紀錄，方便向主管彙報。</p>
+    </a>
+  </div>
+
+  <p class="footer">
+    高雄洲際酒店．食遇社群內部使用，僅供團隊參考<br>
+    資料實際儲存於 Notion，本頁僅作導覽入口，新增與編輯請直接於 Notion 內操作<br>
+    <b>若點擊後顯示無權限</b>，請聯繫建檔人員加入 Notion 工作區共用權限
+  </p>
+
+</div>
+</body>
+</html>
